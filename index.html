@@ -4,15 +4,220 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>PacketPoint</title>
-  <style>
-    body { font-family: system-ui, sans-serif; max-width: 40rem; margin: 3rem auto; padding: 0 1.25rem; line-height: 1.5; color: #1a1a1a; }
-    a { color: #0b57d0; }
-  </style>
+  <meta name="description" content="PacketPoint is a colorful arcade FPS. Shoot, hack turrets, and steal the data. Offline, against bots, with no account.">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="canonical" href="https://playpacketpoint.com/">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bungee&family=Oxanium:wght@400;600&family=Quantico:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <h1>PacketPoint</h1>
-  <p>Colorful arcade FPS. Shoot, hack turrets, and steal the data. Play against bots, offline, with no account.</p>
-  <p>Published by Ethan Classen. <a href="mailto:hello@ethanclassen.dev">hello@ethanclassen.dev</a></p>
-  <p><a href="privacy-policy.html">Privacy policy</a></p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="wrap nav">
+    <a class="brand" href="/"><img src="favicon.svg" alt="">PacketPoint</a>
+    <nav class="nav-links" aria-label="Site">
+      <a href="#operations">Operations</a>
+      <a href="#arsenal">Arsenal</a>
+      <a href="#net">The net</a>
+      <a href="#wardrobe">Wardrobe</a>
+      <a href="#details">Details</a>
+      <a href="/privacy">Privacy</a>
+    </nav>
+  </header>
+  <div class="hazard" aria-hidden="true"></div>
+
+  <main id="main">
+    <section class="hero wrap">
+      <p class="kicker">Arcade FPS · Android</p>
+      <h1>PACKET<span>POINT</span></h1>
+      <p class="lede">Colorful arcade FPS where gunfights and cyberwarfare happen at the same time. Take a lane, then turn the map’s turrets, cameras, and doors against the other side.</p>
+      <ul class="facts">
+        <li>Offline matches</li>
+        <li>Against bots</li>
+        <li>No account</li>
+        <li>No ads</li>
+        <li>Touch or controller</li>
+      </ul>
+    </section>
+
+    <section class="section wrap" id="operations">
+      <h2>Operations</h2>
+      <p class="sub">Six ways to drop in. Score, tickets, or waves. You are back in the fight a few seconds after you drop.</p>
+      <div class="ops">
+        <article class="op" style="--accent:#ffd94d">
+          <h3>Data Heist</h3>
+          <span class="tag">Crack the vault. Carry the data. Upload it.</span>
+          <p>A sealed Data Vault comes online. Crack its ICE, carry the Data Core to an uplink, and hold the upload. First to 3 exfiltrations.</p>
+        </article>
+        <article class="op" style="--accent:#ff734d">
+          <h3>Team Deathmatch</h3>
+          <span class="tag">Pure firefight. Hack the turrets, own the lanes.</span>
+          <p>First team to 40 eliminations. Turrets, cameras, and doors are live. Hijack them to swing a fight.</p>
+        </article>
+        <article class="op" style="--accent:#ff5c6b">
+          <h3>Breach</h3>
+          <span class="tag">Attack and defend the server stacks.</span>
+          <p>Axiom attacks, Vandal defends two server clusters behind heavy ICE. Attackers spend respawn tickets. EMP and Breach Protocol crack servers faster.</p>
+        </article>
+        <article class="op" style="--accent:#4dbfff">
+          <h3>Network Control</h3>
+          <span class="tag">Three nodes. Hack them. Hold them.</span>
+          <p>Capture three relay nodes. Held nodes stream points and speed up bandwidth. First to 150.</p>
+        </article>
+        <article class="op" style="--accent:#8ce64d">
+          <h3>Zombie Survival</h3>
+          <span class="tag">Endless waves of infected. Hold out together.</span>
+          <p>A squad holds against nanite-infected waves. Match points buy weapons, perks, ammo, and a mystery cache. Hack the turrets so they fight for you.</p>
+        </article>
+        <article class="op" style="--accent:#cccce6">
+          <h3>Training Range</h3>
+          <span class="tag">Test weapons, gadgets, and every hackable device.</span>
+          <p>No score and no clock. Infinite ammo, targets, hackable devices, and optional sparring bots.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="arsenal">
+      <h2>Arsenal</h2>
+      <p class="sub">A primary, a sidearm, and the attachments that change how they shoot.</p>
+      <ul class="rack">
+        <li>Linebreaker</li>
+        <li>Hornet</li>
+        <li>Trident</li>
+        <li>Scattershot</li>
+        <li>Brute</li>
+        <li>Longwire</li>
+        <li>Kingpin</li>
+        <li>Spark</li>
+        <li>Buzz</li>
+      </ul>
+      <ul class="chips" style="margin-top:0.8rem">
+        <li>Reflex sight</li>
+        <li>Ranger scope</li>
+        <li>Deadeye scope</li>
+        <li>Longshot scope</li>
+        <li>Vertical grip</li>
+        <li>Angled grip</li>
+        <li>Compensator</li>
+        <li>Suppressor</li>
+        <li>Extended mag</li>
+        <li>Quick mag</li>
+        <li>Target laser</li>
+        <li>Tight choke</li>
+      </ul>
+    </section>
+
+    <section class="section wrap" id="net">
+      <div class="two">
+        <div class="panel">
+          <h3>Gadgets</h3>
+          <p>Frag, EMP charge, hardlight barrier, and sensor dart.</p>
+          <h3 style="margin-top:1.2rem">Abilities</h3>
+          <p><span class="cyber-name">Trace Pulse, Jam Field, EMP Burst, Override, Spoof, Firewall, Breach Protocol.</span> The hack is part of the gunfight, not a menu you open after it.</p>
+        </div>
+        <div class="panel">
+          <h3>Cyberware</h3>
+          <p>Two implant sockets on the operator.</p>
+          <ul class="chips" style="margin-top:0.8rem">
+            <li>Neural Accelerator</li>
+            <li>Kinetic Booster</li>
+            <li>Optic Scanner</li>
+            <li>Signal Ghost</li>
+            <li>Bandwidth Capacitor</li>
+            <li>Combat Processor</li>
+            <li>Hardened Deck</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="section wrap" id="maps">
+      <h2>Maps</h2>
+      <p class="sub">The districts the operations run through.</p>
+      <ul class="maps">
+        <li>Neon District</li>
+        <li>Halcyon Airfield</li>
+        <li>Ironworks Depot</li>
+        <li>Sunbreak Bazaar</li>
+        <li>Timberline</li>
+      </ul>
+    </section>
+
+    <section class="section wrap" id="wardrobe">
+      <h2>Wardrobe</h2>
+      <p class="sub">Dress the operator. Matches pay BITS, a soft currency with no cash value, for cosmetics. Two optional packs on Google Play unlock specific pieces. The whole game is playable without buying either.</p>
+      <div class="two">
+        <article class="panel">
+          <h3>Supporter Pack</h3>
+          <p>Crown, Knight Helm, and the Stormcell weapon finish, plus a Supporter badge on the operator chip.</p>
+        </article>
+        <article class="panel">
+          <h3>Neon Carnival Bundle</h3>
+          <p>Drop 01 in one go: Unicorn, Party Hat, Cupcake, Soft Serve, Bunny Ears, Shark, Squid, and the Vaporwave, Rainbow, and Bubblegum finishes.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section wrap" id="details">
+      <h2>Details</h2>
+      <p class="sub">Publisher information for players and for the Google Play listing.</p>
+      <dl class="details">
+        <div>
+          <dt>App</dt>
+          <dd>PacketPoint</dd>
+        </div>
+        <div>
+          <dt>Package</dt>
+          <dd>com.packetpoint.game</dd>
+        </div>
+        <div>
+          <dt>Publisher</dt>
+          <dd>Ethan Classen</dd>
+        </div>
+        <div>
+          <dt>Contact</dt>
+          <dd><a href="mailto:hello@ethanclassen.dev">hello@ethanclassen.dev</a></dd>
+        </div>
+        <div>
+          <dt>Website</dt>
+          <dd><a href="https://playpacketpoint.com/">playpacketpoint.com</a></dd>
+        </div>
+        <div>
+          <dt>Privacy policy</dt>
+          <dd><a href="https://playpacketpoint.com/privacy">playpacketpoint.com/privacy</a></dd>
+        </div>
+        <div>
+          <dt>Sign-in</dt>
+          <dd>None. Every mode is available without an account.</dd>
+        </div>
+        <div>
+          <dt>Ads</dt>
+          <dd>The game does not show ads.</dd>
+        </div>
+        <div>
+          <dt>Data</dt>
+          <dd>Name, stats, loadout, BITS, and settings stay on the device. Card details stay with Google Play. See the <a href="/privacy">privacy policy</a>.</dd>
+        </div>
+        <div>
+          <dt>Purchases</dt>
+          <dd>Optional one-time cosmetic packs through Google Play Billing. They are not required to play.</dd>
+        </div>
+        <div>
+          <dt>Audience</dt>
+          <dd>Stylized shooter. Not directed at children under 13.</dd>
+        </div>
+        <div>
+          <dt>Online play</dt>
+          <dd>This version is offline against bots. Online modes are still in development.</dd>
+        </div>
+      </dl>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <div>PacketPoint · Ethan Classen</div>
+    <div><a href="mailto:hello@ethanclassen.dev">hello@ethanclassen.dev</a> · <a href="/privacy">Privacy policy</a></div>
+  </footer>
 </body>
 </html>
